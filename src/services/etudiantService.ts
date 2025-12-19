@@ -29,3 +29,17 @@ export const getOneEtudiant = async (code: string) => {
         return { success: false, errors: [error.message || 'Erreur serveur'] };
     }
 }
+
+//Récupérer la liste des etudiants et leur note
+export const AllEtudiant = async () => {
+    try {
+        const response = await axios.get(API_ROUTES.etudiants.read)
+        return  { success: true, data: response.data };
+    } catch (error : any) {
+        if (error.response) {
+            //Erreur venant de l'api
+            return { success :false, errors: error.response.data.errors || error.response.data }
+        }
+        return { success: false, errors: [error.message || 'Erreur serveur'] }
+    }
+} 

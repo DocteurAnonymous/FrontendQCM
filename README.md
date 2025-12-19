@@ -21,6 +21,7 @@ Elle consomme l’API Laravel pour afficher les questions et gérer l’évaluat
 - Tailwind CSS
 - React Router DOM
 - Lucide-react
+- html2pdf
 
 ---
 
@@ -37,8 +38,8 @@ Elle consomme l’API Laravel pour afficher les questions et gérer l’évaluat
 ## 📦 Installation
 
 ```bash
-git clone https://github.com/DocteurAnonymous/FrontednQCM.git
-cd FrontednQCM
+git clone https://github.com/DocteurAnonymous/FrontendQCM.git
+cd FrontendQCM
 npm install
 npm run dev
 
@@ -46,3 +47,6 @@ npm run dev
 ---
 
 ## 📦 LIEN VERS LE BACKEND
+
+https://github.com/DocteurAnonymous/BackendQCM.git
+

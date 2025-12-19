@@ -9,7 +9,6 @@ import type { Resultat } from "../Interfaces/Resultat";
 const Resultat = () => {
 
     const [etudiant, setEtudiant] = useState<Etudiant | null>(null);
-    const [resultat, setResultat] = useState<Resultat | null>(null);
     const [error, setError] = useState<string | null>(null);
     const navigate = useNavigate();
     const { state } = useLocation();

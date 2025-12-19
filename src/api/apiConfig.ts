@@ -5,7 +5,9 @@ export const API_ROUTES = {
         // un nouveau etudiant
         create : `${api_base_url}/etudiant`,
         // recuperer un etudiant
-        readone : `${api_base_url}/etudiant/{code}`
+        readone : `${api_base_url}/etudiant/{code}`,
+        // recuperer la liste des etudiants avec leur note
+        read : `${api_base_url}/etudiant`
     },
     questionnaires: {
         //Liste des questions

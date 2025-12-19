@@ -235,6 +235,7 @@ const InscriptionEtudiant: React.FC = () => {
         {/* Accès administrateur */}
         <div className="mt-6 text-center">
           <button
+            onClick={() => navigate("/authentification")}
             className="text-indigo-600 hover:underline text-sm font-medium"
             type="button"
           >
